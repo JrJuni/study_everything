@@ -1,0 +1,48 @@
+<<<<<<< HEAD
+Study log (25. 04. 29)
+
+장기 학습목표
+- NPU를 활용한 embedded AI solution 개발
+
+단기 학습목표
+- NPU 개발환경 세팅 (WSL 설치, 도커 연결, SDK 설치(컴파일러), 추론 환경 설정)
+- NPU용 모델 개발 (모델 서치, ONNX 변환, Calibration, Compile)
+- NPU향 어플리케이션 개발(Inferencing, AI 추론 S/W 개발)
+
+오늘의 학습
+- NPU 개발환경 세팅
+    - WSL 설치
+    - 도커 연결
+    - SDK 설치
+- NPU용 모델 개발
+    - 모델 서치: YOLOv5
+    - ONNX 개발: Gemini에게 심하게 의존, 리뷰 필요
+    - Compile: SDK 가이드에 따라 컴파일 수행
+- 기타
+    - 터미널 단축키: cp, rm, mkdir 등
+    - 절대주소
+
+< Long-term Study Goal >
+Develop embedded AI solutions using NPU technology
+
+< Short-term Study Goals >
+Set up the NPU development environment (Install WSL, connect Docker, install SDK/compiler, configure inference environment)
+Develop models for NPU (model search, ONNX conversion, calibration, compilation)
+Develop applications for NPU (inference, AI inference software development)
+
+< Today's Study >
+NPU Development Environment Setup
+    Installed WSL
+    Connected Docker
+    Installed SDK
+Model Development for NPU
+    Model search: YOLOv5
+    ONNX conversion: Relied heavily on Gemini, needs review
+    Compilation: Followed SDK guide for compilation
+Others
+    Terminal shortcuts: cp, rm, mkdir, etc.
+    Absolute file paths
+=======
+Study Log (25.04.30)
+
+>>>>>>> eab1c38e3fa6171723c4a7a6744a126a2a919a86
