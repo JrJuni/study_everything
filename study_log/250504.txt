@@ -1,48 +1,27 @@
-<<<<<<< HEAD
-Study log (25. 04. 29)
-
-장기 학습목표
-- NPU를 활용한 embedded AI solution 개발
-
-단기 학습목표
-- NPU 개발환경 세팅 (WSL 설치, 도커 연결, SDK 설치(컴파일러), 추론 환경 설정)
-- NPU용 모델 개발 (모델 서치, ONNX 변환, Calibration, Compile)
-- NPU향 어플리케이션 개발(Inferencing, AI 추론 S/W 개발)
-
-오늘의 학습
-- NPU 개발환경 세팅
-    - WSL 설치
-    - 도커 연결
-    - SDK 설치
-- NPU용 모델 개발
-    - 모델 서치: YOLOv5
-    - ONNX 개발: Gemini에게 심하게 의존, 리뷰 필요
-    - Compile: SDK 가이드에 따라 컴파일 수행
-- 기타
-    - 터미널 단축키: cp, rm, mkdir 등
-    - 절대주소
+Study log (25. 05. 04)
 
 < Long-term Study Goal >
-Develop embedded AI solutions using NPU technology
+- Develop embedded AI solutions using NPUs
+- Be familiar with PyTorch and AI models
 
-< Short-term Study Goals >
-Set up the NPU development environment (Install WSL, connect Docker, install SDK/compiler, configure inference environment)
-Develop models for NPU (model search, ONNX conversion, calibration, compilation)
-Develop applications for NPU (inference, AI inference software development)
+< Short-term Study Goals (within a month) >
+- Set up the NPU development environment (Install WSL, connect Docker, install SDK/compiler, configure inference environment)  (5.9)
+- Develop models for NPU (model search, ONNX conversion, calibration, compilation)   (5.9)
+- Develop applications for NPU (inference, AI inference software development)   (5.16)
+- Study of YOLO models by version
 
 < Today's Study >
-NPU Development Environment Setup
-    Installed WSL
-    Connected Docker
-    Installed SDK
-Model Development for NPU
-    Model search: YOLOv5
-    ONNX conversion: Relied heavily on Gemini, needs review
-    Compilation: Followed SDK guide for compilation
-Others
-    Terminal shortcuts: cp, rm, mkdir, etc.
-    Absolute file paths
-=======
-Study Log (25.04.30)
+- Version control in Git: 
+1. merge conflict
+현재 3개의 컴퓨터에서 작업하다가 충돌이 나서 문제해결에 많은 시간을 썼음
+>  <<<<<< 와 ======= 사이가 내 local modification
+>  ====== 와 >>>>>>> 사이가 remote modification
+2. git reset
+학습용 데이터를 workspace에 받았더니 업로드에 많은 문제가 생겨서 예전 버전으로 돌아가려고 함.
+> git reset "commit hash"
+> git reset --hard 는 이후 변경내역을 전부 삭제해버림
+> git reset --soft/mixed는 변경 내역이 남아있음
+> git reset "파일명" 사용 시 add 리셋
 
->>>>>>> eab1c38e3fa6171723c4a7a6744a126a2a919a86
+* 제일 중요한 것!
+파일 저장하고 add해야 정상 업로드
