@@ -11,3 +11,10 @@ Study log (25. 05. 05)
 - Study of YOLO models by version
 
 < Today's Study >
+- Prepare Datasets:
+> OD용: Pascal VOC 2007, COCO
+> Classification: Imagenet, tiny Imagenet
+> VLM: COCO 2017 caption, Visual Genome
+
+* 파이썬에서 경로 설정 시 r"|U, |n, |t"는 이스케이프 시퀀스로 해석될 수 있음
+> "/" 사용하거나 "||" 두번 사용
