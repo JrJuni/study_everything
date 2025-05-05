@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Study log (25. 04. 29)
 
 장기 학습목표
@@ -42,7 +41,3 @@ Model Development for NPU
 Others
     Terminal shortcuts: cp, rm, mkdir, etc.
     Absolute file paths
-=======
-Study Log (25.04.30)
-
->>>>>>> eab1c38e3fa6171723c4a7a6744a126a2a919a86
