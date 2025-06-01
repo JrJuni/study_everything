@@ -84,7 +84,7 @@ def generate_srt_from_korean_json(korean_segments_json_path, output_srt_file_pat
 input_korean_segments_json = "C:/Users/Junyeob/Downloads/korean_translated_segments.json" 
 
 # 2. 최종적으로 생성될 한국어 SRT 자막 파일 이름
-output_srt_file = "C:/Users/Junyeob/Downloads/final_korean_subtitles.srt"
+output_srt_file = "C:/Users/Junyeob/Downloads/video_test01.srt"
 
 print("="*50)
 print(f"입력 파일 (번역된 한국어 세그먼트 JSON): {input_korean_segments_json}")
