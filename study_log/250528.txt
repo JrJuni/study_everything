@@ -1,0 +1,14 @@
+Study log (25. 05. 28)
+
+< Long-term Study Goal >
+- Develop embedded AI solutions using NPUs
+- Be familiar with PyTorch and AI models
+
+< Short-term Study Goals (within a month) >
+- Set up the NPU development environment (Install WSL, connect Docker, install SDK/compiler, configure inference environment)  (failed, 5.30)
+- Develop models for NPU (model search, ONNX conversion, calibration, compilation)   (failed, 6.8)
+- Develop applications for NPU (inference, AI inference software development)   (failed, 6.15)
+- Study of YOLO models by version (failed, 6.8)
+
+< Today's Study >
+PyTorch start - AutoGrad(자동미분)
