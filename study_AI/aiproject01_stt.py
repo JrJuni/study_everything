@@ -47,7 +47,7 @@ def transcribe_and_save_segments_as_json(audio_path, output_json_path, model_siz
 
 # --- 사용 예시 ---
 # 입력 오디오 파일 경로 (이전에 추출한 음성 파일)
-extracted_audio_file_path = "C:/Users/Junyeob/Downloads/extracted_japanese_audio.mp3" 
+extracted_audio_file_path = "C:/Users/Junyeob/Downloads/video_test01.mp3" 
 
 # 추출된 세그먼트 정보를 저장할 JSON 파일 경로와 이름
 output_json_file = "japanese_audio_segments.json" 

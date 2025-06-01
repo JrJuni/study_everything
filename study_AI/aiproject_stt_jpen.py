@@ -82,10 +82,10 @@ def japanese_audio_to_english_srt(audio_path, output_srt_path, model_size="large
 
 # --- 사용 예시 ---
 # 1. 일본어 음성 파일 경로 (예: "extracted_japanese_audio.mp3" 또는 원본 mp3 파일)
-japanese_audio_input_file = "C:/Users/Junyeob/Downloads/extracted_japanese_audio.mp3" 
+japanese_audio_input_file = "C:/Users/Junyeob/Downloads/video_test01.mp3" 
 
 # 2. 최종적으로 생성될 영어 SRT 자막 파일 이름
-output_english_srt_file = "C:/Users/Junyeob/Downloads/english_subtitles_from_japanese_audio.srt"
+output_english_srt_file = "C:/Users/Junyeob/Downloads/video_test01.srt"
 
 print("="*50)
 print(f"입력 일본어 오디오 파일: {japanese_audio_input_file}")

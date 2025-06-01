@@ -28,7 +28,7 @@ input_video_file = "C:/Users/Junyeob/Downloads/video_test01.mp4"
 print(f"DEBUG: input_video_file의 현재 값은 '{input_video_file}' 입니다.")
 
 # 저장될 음성 파일의 이름과 경로를 정해주세요.
-output_audio_file = "C:/Users/Junyeob/Downloads/extracted_japanese_audio.mp3" # 또는 .wav 도 좋아요!
+output_audio_file = "C:/Users/Junyeob/Downloads/video_test01.mp3" # 또는 .wav 도 좋아요!
 
 # 함수 실행
 if input_video_file != "영상경로_미수정.mp4":
