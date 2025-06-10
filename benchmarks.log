@@ -1,0 +1,5 @@
+
+Benchmarks complete for yolo11n.pt on coco8.yaml at imgsz=640 (19.58s)
+Benchmarks legend:  - ✅ Success  - ❎ Export passed but validation failed  - ❌️ Export failed
+  Format Status❔  Size (MB)  metrics/mAP50-95(B)  Inference time (ms/im)    FPS
+0   ONNX       ✅       10.2               0.6082                   40.76  24.53

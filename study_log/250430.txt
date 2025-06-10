@@ -1,0 +1,15 @@
+Study Log (25.04.30)
+
+# Long-term Goal 
+- Develop NPU-based applications
+
+# Short-term Goal
+- Be familiar with Linux (WSL)
+- Be familiar with Docker 
+- Learn how to use Cpp
+- Install NPU SDK and set development environment
+- Compile Models for NPU
+- Write a code for NPU applications
+
+# Today's Log
+- 
