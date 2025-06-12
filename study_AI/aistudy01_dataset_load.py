@@ -14,8 +14,8 @@ transform = transforms.ToTensor()
 # train=True: 학습용 데이터를 불러옴
 # download=True: 해당 폴더에 데이터가 없으면 자동으로 다운로드
 # transform=transform: 위에서 정의한 변환 규칙을 적용
-train_dataset = datasets.MNIST(root='./data', train=True, download=True, transform=transform)
-test_dataset = datasets.MNIST(root='./data', train=False, download=True, transform=transform)
+train_dataset = datasets.MNIST(root='C:/Users/Junyeob/Desktop/Study/AI/data', train=True, download=True, transform=transform)
+test_dataset = datasets.MNIST(root='C:/Users/Junyeob/Desktop/Study/AI/data', train=False, download=True, transform=transform)
 
 # 3. 데이터로더 생성
 # dataset: 사용할 데이터셋
