@@ -1,6 +1,3 @@
-# (JY_CNN 클래스와 model 객체 생성 코드는 이미 위에 있다고 가정)
-
-# 필요한 라이브러리 불러오기
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader
 
