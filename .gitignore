@@ -1,0 +1,27 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# PyTorch models
+*.pt
+
+# Jupyter notebooks
+*.ipynb
+
+# C++ compiled files
+*.exe
+*.dSYM/
+
+# Log files
+*.log
+
+# Papers (PDFs not tracked)
+Papers/*.pdf
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# dist
+projects/Timer_App/dist
+tasks.db
